@@ -1,6 +1,23 @@
-.rodape{
-  background: var(--cor-menos-escura);
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
+.rodape {
+    background: var(--cor-menos-escura);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__icones-item {
+    width: 50px;
+
+
+}
+
+.rodape__icones {
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+.rodape__marca{
+    text-align: center;
+    padding-top: 2rem;
 }
