@@ -1,0 +1,26 @@
+.cabecalho__botao{
+    display: none;
+}
+.cabecalho {
+    background-color: var(--cor-menos-clara);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__logo-img {
+   
+    height: 50px;
+    padding-left: 1.5rem;
+    padding-top: .2rem;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.svg);
+    background-position: center;
+    display: inline-block;
+    margin-right: 1rem;
+
+
+}

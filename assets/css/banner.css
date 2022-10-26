@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:url(../img/fundo_banner.jpg)  center / cover no-repeat;
+}
+
+.banner__container-texto {
+    width: 100px;
+    margin: 3em;
+    padding: 1em;
+    border: 4px double var(--cor-mais-escura);
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.banner__img {
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
+    border-radius: 50%;
+   
+}

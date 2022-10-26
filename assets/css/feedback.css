@@ -1,0 +1,24 @@
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.feedback__card{
+    width: 70px;
+    text-align: center;
+}
+.feedback__card-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.feedback__card-nome{
+    margin: 0;
+    color: var(--fonte-nome);
+    font-size: 12px;
+    width: 71px;
+}
+.feedback__card-texto{
+    font-size: 12px;
+    width: 71px; 
+}

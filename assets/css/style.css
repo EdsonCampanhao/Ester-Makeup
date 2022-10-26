@@ -1,0 +1,29 @@
+:root {
+    --cor-clara: antiquewhite;
+    --cor-mais-clara: #dfc8c2;
+    --cor-menos-clara: #b48e7b;
+    --cor-menos-escura: #Af684A;
+    --cor-mais-escura: #7b372e;
+    --branco: #ffffff;
+    --preto: #000;
+    --fonte-nome:#333333;
+    --fonte-principal: 'Montserrat'
+
+}
+
+html {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+
+
+
+}
+
+.desktop {
+    display: none;
+}
