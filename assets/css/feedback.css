@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-around;
     padding-top: 1rem;
+    background: linear-gradient(90deg, var(--cor-clara), var(--cor-mais-clara));
+    border-top: 1px solid #fff;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #fff;
 }
 .feedback__card{
     width: 70px;
@@ -13,12 +17,12 @@
     border-radius: 50%;
 }
 .feedback__card-nome{
-    margin: 0;
+    margin: 0 0 .5rem;
     color: var(--fonte-nome);
     font-size: 12px;
     width: 71px;
 }
 .feedback__card-texto{
-    font-size: 12px;
+    font-size: 8px;
     width: 71px; 
 }

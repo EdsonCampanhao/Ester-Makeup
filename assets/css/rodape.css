@@ -1,0 +1,6 @@
+.rodape{
+  background: var(--cor-menos-escura);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
