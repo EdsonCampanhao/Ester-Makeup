@@ -1,8 +1,10 @@
+header{
+    background:url(../img/feedback\(1\).jpg)  center / cover no-repeat;
+}
 .cabecalho__botao{
     display: none;
 }
 .cabecalho {
-    background-color: var(--cor-menos-clara);
     display: flex;
     justify-content: space-between;
     align-items: center;

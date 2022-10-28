@@ -1,18 +1,23 @@
 .banner {
     display: flex;
+    height: 600px;
     justify-content: space-between;
-    align-items: center;
-    background:url(../img/fundo_banner.jpg)  center / cover no-repeat;
+    align-items:flex-end;
+   
+}
+.banner__container{
+    width: 100%;
 }
 
 .banner__container-texto {
-    width: 100px;
-    margin: 3em;
+    width: 60%;
+    margin: 0 auto;
     padding: 1em;
-    border: 4px double var(--cor-mais-escura);
-    color: #fff;
     text-align: center;
-    box-sizing: border-box;
+    font-weight: 700;
+    color: var(--branco);
+    font-size: 1.5rem;
+    
 }
 .banner__img {
     width: 200px;
